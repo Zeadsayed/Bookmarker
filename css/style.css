@@ -1,0 +1,125 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #39393a;
+}
+.container {
+    width: 80%;
+    margin: 15px auto;
+    padding: 0 15px;
+}
+
+
+header .container {
+    color: rgb(218, 214, 214);
+    padding: 20px;
+    border-bottom: 1px solid rgb(179, 176, 176);
+    font-size: 25px;
+}
+
+.inner {
+    background-color: #EEE;
+    border: none;
+    text-align: center;
+    padding: 30px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+    max-height: 2em;
+    margin-bottom: 10px;
+}
+
+.ml-auto, .m-auto, .mx-auto {
+    margin-left: auto;
+}
+.mr-auto, .m-auto, .mx-auto {
+    margin-right: auto;
+}
+
+.alert-error {
+    background-color: #ffb2b2;
+    color: #6d0000;
+    border: 1px solid #6d0000;
+}
+.alert {
+    padding: 5px;
+    margin: 10px;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+}
+.btn-primary {
+    background-color: #1167c4;
+    color: white;
+    border: 1px solid #1167c4;
+}
+
+.webwell {
+    background-color: #EEE;
+    margin: 10px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.webwell h2 {
+    width: 30%;
+    color: #333;
+}
+
+footer .container {
+    padding: 20px;
+    border-top: 1px solid rgb(218, 214, 214);
+    font-size: 14px;
+}
+footer p {
+    color: rgb(228, 222, 222);
+}
+.btn-primary:hover {
+    background-color: #0a3f77;
+    border: 1px solid #0a3f77;
+}
+.btn:hover {
+    box-shadow: 2px 5px 3px 0px #888;
+}
+.webwell a {
+    text-decoration: none;
+}
+.btn-danger {
+    background-color: #910004;
+    color: white;
+    border: 1px solid #910004;
+}
+.btn-primary {
+    background-color: #1167c4;
+    color: white;
+    border: 1px solid #1167c4;
+    margin-left: 10% !important;
+}
+.btn {
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 15px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: fit-content;
+}
